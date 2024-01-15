@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinarySerialization
 {
-    internal class Employee
+    public class Employee
     {
        public string EmployeeName { get; set; }
     }
