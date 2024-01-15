@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace XMLSerialization
 {
-    internal class Department
+    [Serializable]
+    public class Department
     {
         public string DepartmentName { get; set; }
     }

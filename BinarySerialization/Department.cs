@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinarySerialization
 {
+    [Serializable]
     public class Department
     {
        public string DepartmentName { get; set; }

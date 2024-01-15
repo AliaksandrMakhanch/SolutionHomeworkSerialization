@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace JsonSerialization
 {
-    internal class Employee
+    [Serializable]
+    public class Employee
     {
        public string EmployeeName {  get; set; }
     }
