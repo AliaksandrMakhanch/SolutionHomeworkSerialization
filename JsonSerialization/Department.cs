@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JsonSerialization
 {
-    internal class Department
+    public class Department
     {
        public string DepartmentName {  get; set; }
     }
